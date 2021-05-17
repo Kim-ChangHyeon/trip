@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+	margin:0;
+ 	width: 100%;
+ 	height: auto;
+ 	position: relative;
+ 	top: 0;
+ 	left: 0;
+}
+
+.main_banner img{
+	width: 100%;
+	height: 600px;
+	overflow-x: hidden; 
+}
+
+.main_banner {
+	position: relative;
+	top: 70px;
+	
+}
+.main_banner {
+	width: 99%;
+	margin: 0 auto;
+}
+
+.best_tour,.best_theme {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.best_tour {
+	top:170px;
+	position: relative;
+	padding-left: 10px;
+}
+.tour {
+	height: 200px;
+	width: 300px;
+	cursor: pointer;
+}
+
+.tour img {width: 300px; height: 200px;}
+
+hr {width: 100%}
+
+#tour_img li {
+	margin: 0 15px 50px;
+	width: 300px;
+	height: 200px;
+	float: left;
+	list-style: none;
+}
+
+.best_theme {
+	top:200px;
+	position: relative;
+	padding-left: 10px;
+}
+
+.copyright {
+	width: 100%;
+	height: 50px;
+	background-color: gray;
+	position: relative;
+	top: 300px;
+}
+
+.tour a:hover {text-decoration: none; color: #fff;}
+.more {
+	display:block; 
+	font-size:18px; 
+	color:#fff; 
+	background:#c0c0c0; 
+	line-height:40px; 
+	width:300px; 
+	margin-top:30px; 
+	opacity:0; 
+	text-align: center;
+	transition:0.5s all;
+	position: relative;
+	top: -70px;
+}
+
+.tour:hover .more{
+	opacity:1;
+}
+
+span {
+	font-size: 30px;
+	font-weight: 700;
+	color: #777;
+	text-align: center;
+}
+
+#title {
+	text-align: center;
+	vertical-align: middle;
+}
+
+#title font,#title img {
+	vertical-align: middle;
+}
+
+#title font {
+	padding: 0 10px 0;
+}
